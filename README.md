@@ -24,6 +24,8 @@ On the other hand, the neural network resulted in an RMSE of 27.56. Strangely, t
 :-------------------------:|:-------------------------:
 ![lr-model](https://github.com/joshsia/monkey-neural-decoder/blob/main/img/lr_incorrect_preds.png)  |  ![nn](https://github.com/joshsia/monkey-neural-decoder/blob/main/img/nn_preds.png)
 
+In the future, it might be worth using a stacking or voting regressor to combine the predictions of both models.
+
 ## Credits
 
 The data used in this project was collected by the laboratory of Prof. Krishna Shenoy at Stanford University, and was distributed by Prof. Claudia Clopath at Imperial College London as part of the Brain Machine Interfaces module.
